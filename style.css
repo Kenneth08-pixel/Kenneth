@@ -3,334 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-}
-
-header .logo h1 {
-    font-size: 24px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: grey;
-    color: #fff;
-}
-
-header .logo h1 {
-    font-size: 24px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: grey;
-    color: #fff;
-}
-
-header .logo h1 {
-    font-size: 24px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-main {
-    padding: 40px;
-}
-
-.content-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.image-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    width: 400px;
-}
-
-.text-section {
-    max-width: 600px;
-    margin-left: 40px;
-}
-
-.text-section h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-.text-section p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
-    .content-wrapper {
-        flex-direction: column;
-    }
-
-    .image-section,
-    .text-section {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .text-section {
-        margin-top: 20px;
-    }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: grey;
-    color: #fff;
-}
-
-header .logo h1 {
-    font-size: 24px;
-}
-
-nav ul {
-    display: flex;
-    list-style: none;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-main {
-    padding: 40px;
-}
-
-.content-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.image-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    width: 400px;
-}
-
-.text-section {
-    max-width: 600px;
-    margin-left: 40px;
-}
-
-.text-section h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-.text-section p {
-    font-size: 18px;
-    line-height: 1.6;
-}
-footer {
-    background-color: grey;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
-    font-size: 16px;
-}
-
-footer p {
-    margin: 0;
-}
-
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-    }
-
-    nav ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul li {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
-    .content-wrapper {
-        flex-direction: column;
-    }
-
-    .image-section,
-    .text-section {
-        width: 100%;
-        margin-left: 0;
-    }
-
-    .text-section {
-        margin-top: 20px;
-    }
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: Arial, sans-serif;
     background-image: url('back.jpg');
@@ -339,7 +11,6 @@ body {
     background-repeat: no-repeat;
     min-height: 10vh;
 }
-
 header {
     display: flex;
     justify-content: space-between;
@@ -348,35 +19,28 @@ header {
     background-color: grey;
     color: #fff;
 }
-
 header .logo h1 {
     font-size: 24px;
 }
-
 nav ul {
     display: flex;
     list-style: none;
 }
-
 nav ul li {
     margin-left: 20px;
 }
-
 nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
 }
-
 nav ul li a:hover {
     text-decoration: underline;
 }
-
 main {
     padding: 40px;
     color: #fff;
 }
-
 .content-wrapper {
     display: flex;
     align-items: center;
@@ -385,29 +49,24 @@ main {
     padding: 20px;
     border-radius: 10px;
 }
-
 .image-section img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     width: 400px;
 }
-
 .text-section {
     max-width: 600px;
     margin-left: 40px;
 }
-
 .text-section h2 {
     margin-bottom: 20px;
     font-size: 24px;
 }
-
 .text-section p {
     font-size: 18px;
     line-height: 1.6;
 }
-
 footer {
     background-color: grey;
     color: white;
@@ -416,36 +75,29 @@ footer {
     margin-top: 40px;
     font-size: 16px;
 }
-
 footer p {
     margin: 0;
 }
-
 @media (max-width: 768px) {
     header {
         flex-direction: column;
     }
-
     nav ul {
         flex-direction: column;
         align-items: center;
     }
-
     nav ul li {
         margin-left: 0;
         margin-top: 10px;
     }
-
     .content-wrapper {
         flex-direction: column;
     }
-
     .image-section,
     .text-section {
         width: 100%;
         margin-left: 0;
     }
-
     .text-section {
         margin-top: 20px;
     }
